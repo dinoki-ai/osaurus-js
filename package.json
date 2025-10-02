@@ -2,6 +2,14 @@
   "name": "@osaurus/sdk",
   "version": "0.0.1",
   "description": "Osaurus SDK",
+  "homepage": "https://osaurus.ai",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dinoki-ai/osaurus-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dinoki-ai/osaurus-js/issues"
+  },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -16,5 +24,8 @@
     "llm",
     "macos"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
 }
