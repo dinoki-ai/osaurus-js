@@ -1,0 +1,20 @@
+{
+  "name": "osaurus-sdk-examples",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "basic": "bun run basic.ts",
+    "openai": "bun run openai.ts",
+    "streaming": "bun run streaming.ts",
+    "electron": "electron -r tsx electron.ts"
+  },
+  "dependencies": {
+    "@osaurus/sdk": "file:..",
+    "electron": "^38.2.0",
+    "openai": "^4.0.0",
+    "tsx": "^4.20.6"
+  },
+  "devDependencies": {
+    "@types/node": "^24.6.2"
+  }
+}
