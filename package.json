@@ -1,12 +1,20 @@
 {
   "name": "@osaurus/sdk",
-  "module": "index.ts",
-  "type": "module",
-  "private": true,
-  "devDependencies": {
-    "@types/bun": "latest"
+  "version": "0.0.1",
+  "description": "Osaurus SDK",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "bun run src/index.ts"
   },
-  "peerDependencies": {
-    "typescript": "^5"
-  }
+  "keywords": [
+    "osaurus",
+    "llm",
+    "macos"
+  ],
+  "license": "MIT"
 }
